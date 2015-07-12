@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		409B7CCF1B51017800876627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B7CCE1B51017800876627 /* AppDelegate.swift */; };
+		409B7CD11B51017800876627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B7CD01B51017800876627 /* ViewController.swift */; };
+		409B7CD41B51017800876627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409B7CD21B51017800876627 /* Main.storyboard */; };
+		409B7CD61B51017800876627 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409B7CD51B51017800876627 /* Images.xcassets */; };
+		409B7CD91B51017800876627 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 409B7CD71B51017800876627 /* LaunchScreen.xib */; };
+		409B7CE51B51017900876627 /* CoverParallaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B7CE41B51017900876627 /* CoverParallaxTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		409B7CDF1B51017900876627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409B7CC11B51017800876627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409B7CC81B51017800876627;
+			remoteInfo = CoverParallax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		409B7CC91B51017800876627 /* CoverParallax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverParallax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		409B7CCD1B51017800876627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409B7CCE1B51017800876627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		409B7CD01B51017800876627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		409B7CD31B51017800876627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		409B7CD51B51017800876627 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		409B7CD81B51017800876627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		409B7CDE1B51017900876627 /* CoverParallaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoverParallaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		409B7CE31B51017900876627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409B7CE41B51017900876627 /* CoverParallaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverParallaxTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		409B7CC61B51017800876627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409B7CDB1B51017900876627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		409B7CC01B51017800876627 = {
+			isa = PBXGroup;
+			children = (
+				409B7CCB1B51017800876627 /* CoverParallax */,
+				409B7CE11B51017900876627 /* CoverParallaxTests */,
+				409B7CCA1B51017800876627 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		409B7CCA1B51017800876627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409B7CC91B51017800876627 /* CoverParallax.app */,
+				409B7CDE1B51017900876627 /* CoverParallaxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		409B7CCB1B51017800876627 /* CoverParallax */ = {
+			isa = PBXGroup;
+			children = (
+				409B7CCE1B51017800876627 /* AppDelegate.swift */,
+				409B7CD01B51017800876627 /* ViewController.swift */,
+				409B7CD21B51017800876627 /* Main.storyboard */,
+				409B7CD51B51017800876627 /* Images.xcassets */,
+				409B7CD71B51017800876627 /* LaunchScreen.xib */,
+				409B7CCC1B51017800876627 /* Supporting Files */,
+			);
+			path = CoverParallax;
+			sourceTree = "<group>";
+		};
+		409B7CCC1B51017800876627 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				409B7CCD1B51017800876627 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		409B7CE11B51017900876627 /* CoverParallaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				409B7CE41B51017900876627 /* CoverParallaxTests.swift */,
+				409B7CE21B51017900876627 /* Supporting Files */,
+			);
+			path = CoverParallaxTests;
+			sourceTree = "<group>";
+		};
+		409B7CE21B51017900876627 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				409B7CE31B51017900876627 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		409B7CC81B51017800876627 /* CoverParallax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409B7CE81B51017900876627 /* Build configuration list for PBXNativeTarget "CoverParallax" */;
+			buildPhases = (
+				409B7CC51B51017800876627 /* Sources */,
+				409B7CC61B51017800876627 /* Frameworks */,
+				409B7CC71B51017800876627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoverParallax;
+			productName = CoverParallax;
+			productReference = 409B7CC91B51017800876627 /* CoverParallax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		409B7CDD1B51017900876627 /* CoverParallaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409B7CEB1B51017900876627 /* Build configuration list for PBXNativeTarget "CoverParallaxTests" */;
+			buildPhases = (
+				409B7CDA1B51017900876627 /* Sources */,
+				409B7CDB1B51017900876627 /* Frameworks */,
+				409B7CDC1B51017900876627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409B7CE01B51017900876627 /* PBXTargetDependency */,
+			);
+			name = CoverParallaxTests;
+			productName = CoverParallaxTests;
+			productReference = 409B7CDE1B51017900876627 /* CoverParallaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		409B7CC11B51017800876627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = CodenTrick;
+				TargetAttributes = {
+					409B7CC81B51017800876627 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					409B7CDD1B51017900876627 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 409B7CC81B51017800876627;
+					};
+				};
+			};
+			buildConfigurationList = 409B7CC41B51017800876627 /* Build configuration list for PBXProject "CoverParallax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 409B7CC01B51017800876627;
+			productRefGroup = 409B7CCA1B51017800876627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				409B7CC81B51017800876627 /* CoverParallax */,
+				409B7CDD1B51017900876627 /* CoverParallaxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		409B7CC71B51017800876627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409B7CD41B51017800876627 /* Main.storyboard in Resources */,
+				409B7CD91B51017800876627 /* LaunchScreen.xib in Resources */,
+				409B7CD61B51017800876627 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409B7CDC1B51017900876627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		409B7CC51B51017800876627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409B7CD11B51017800876627 /* ViewController.swift in Sources */,
+				409B7CCF1B51017800876627 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409B7CDA1B51017900876627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409B7CE51B51017900876627 /* CoverParallaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		409B7CE01B51017900876627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 409B7CC81B51017800876627 /* CoverParallax */;
+			targetProxy = 409B7CDF1B51017900876627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		409B7CD21B51017800876627 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409B7CD31B51017800876627 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		409B7CD71B51017800876627 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409B7CD81B51017800876627 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		409B7CE61B51017900876627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		409B7CE71B51017900876627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		409B7CE91B51017900876627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoverParallax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		409B7CEA1B51017900876627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoverParallax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		409B7CEC1B51017900876627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoverParallaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoverParallax.app/CoverParallax";
+			};
+			name = Debug;
+		};
+		409B7CED1B51017900876627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoverParallaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoverParallax.app/CoverParallax";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409B7CC41B51017800876627 /* Build configuration list for PBXProject "CoverParallax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409B7CE61B51017900876627 /* Debug */,
+				409B7CE71B51017900876627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409B7CE81B51017900876627 /* Build configuration list for PBXNativeTarget "CoverParallax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409B7CE91B51017900876627 /* Debug */,
+				409B7CEA1B51017900876627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		409B7CEB1B51017900876627 /* Build configuration list for PBXNativeTarget "CoverParallaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409B7CEC1B51017900876627 /* Debug */,
+				409B7CED1B51017900876627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 409B7CC11B51017800876627 /* Project object */;
+}

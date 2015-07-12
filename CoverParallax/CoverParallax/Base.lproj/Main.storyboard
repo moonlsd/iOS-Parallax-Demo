@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="CoverParallax" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uei-ks-bYQ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ParallaxiOS_SamsungCover" translatesAutoresizingMaskIntoConstraints="NO" id="jEi-js-x6G">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="TrR-yA-sxB"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ParallaxiOS_SamsungAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="CJq-Ix-QFk">
+                                        <rect key="frame" x="12" y="120" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="UaB-Aq-b15"/>
+                                            <constraint firstAttribute="height" constant="80" id="ujv-cE-99l"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Samsung Mobile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W16-XH-GTQ">
+                                        <rect key="frame" x="12" y="208" width="300" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="CYk-lr-Zt1"/>
+                                            <constraint firstAttribute="width" constant="300" id="Q3d-WI-Jdl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@Samsung Mobile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCW-WP-U94">
+                                        <rect key="frame" x="12" y="228" width="143" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="QbX-0a-26H"/>
+                                            <constraint firstAttribute="width" constant="143" id="gcp-md-6sU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Be the first to know. The official go-to destination for #TheNextGalaxy realtime news, stories and more." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poG-5Q-q6c">
+                                        <rect key="frame" x="12" y="253" width="300" height="62"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="2fe-VM-QDM"/>
+                                            <constraint firstAttribute="height" constant="62" id="cNk-ot-2Ev"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="samsung.com/Galaxy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Twi-AA-GcC">
+                                        <rect key="frame" x="12" y="323" width="167" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="ZR3-WN-5J4"/>
+                                            <constraint firstAttribute="width" constant="167" id="bvy-tK-v4J"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.2556286800751556" green="0.42622731707975348" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="428 FOLLOWING" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nah-sr-1aG">
+                                        <rect key="frame" x="12" y="352" width="146" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.9M FOLLOWERS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1K2-uj-g8Q">
+                                        <rect key="frame" x="167" y="352" width="145" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="9vk-KS-Onl">
+                                        <rect key="frame" x="8" y="378" width="304" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="Gi2-cR-IJO"/>
+                                            <constraint firstAttribute="width" constant="304" id="aY2-Lt-ADn"/>
+                                        </constraints>
+                                        <segments>
+                                            <segment title="Tweets"/>
+                                            <segment title="Media"/>
+                                            <segment title="Favorites"/>
+                                        </segments>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npC-se-jdd">
+                                        <rect key="frame" x="8" y="414" width="304" height="400"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="400" id="TxL-Dx-XM3"/>
+                                        </constraints>
+                                        <mutableString key="text">It’s not okay to make a cheap-looking phone anymore.
+
+Now that Apple is finally making big phones, and even the cheapest Android phones feel nice, we all expect more from Samsung — and rightly so. A flagship phone has to be great or it’s going to get laughed out of the room. If the Galaxy S6 was another plasticky, boring phone like last year’s Galaxy S5 or if it merely introduced a few hardware tricks, it would have gotten laughed out of the entire neighborhood.
+
+There is a version of the phone with a hardware trick, the Galaxy S6 Edge with a curved display. But that’s a distraction; the real story is that Samsung needed to learn that hardware prowess and software features are tools you use to build something great, not ends in themselves. Most Galaxy phones are uninspired compilations of spec lists. For the S6, Samsung to needed to find inspiration, and it did: in Apple.
+
+The Galaxy S6 is what happens when Samsung doesn’t try to copy Apple’s phones, but instead finally tries to copy Apple’s product philosophy.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="npC-se-jdd" firstAttribute="top" secondItem="9vk-KS-Onl" secondAttribute="bottom" constant="8" id="2YJ-B5-ABD"/>
+                                    <constraint firstItem="CJq-Ix-QFk" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" constant="12" id="6C2-Hk-9bh"/>
+                                    <constraint firstAttribute="bottom" secondItem="npC-se-jdd" secondAttribute="bottom" constant="8" id="6x1-IM-uWl"/>
+                                    <constraint firstItem="9vk-KS-Onl" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" constant="8" id="7qo-5W-VhV"/>
+                                    <constraint firstItem="CJq-Ix-QFk" firstAttribute="top" secondItem="jEi-js-x6G" secondAttribute="bottom" constant="-40" id="AAp-FB-HLC"/>
+                                    <constraint firstItem="fCW-WP-U94" firstAttribute="top" secondItem="CJq-Ix-QFk" secondAttribute="bottom" constant="28" id="E5A-DS-oQg"/>
+                                    <constraint firstItem="CJq-Ix-QFk" firstAttribute="top" secondItem="Uei-ks-bYQ" secondAttribute="top" constant="120" id="G39-kn-UJi"/>
+                                    <constraint firstItem="9vk-KS-Onl" firstAttribute="top" secondItem="1K2-uj-g8Q" secondAttribute="bottom" constant="8" id="Hd5-6a-KUH"/>
+                                    <constraint firstItem="W16-XH-GTQ" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" constant="12" id="Mqu-kJ-tyZ"/>
+                                    <constraint firstItem="npC-se-jdd" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" constant="8" id="Ssr-mu-qtn"/>
+                                    <constraint firstItem="fCW-WP-U94" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" constant="12" id="TBy-md-IGh"/>
+                                    <constraint firstItem="nah-sr-1aG" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" constant="12" id="VWT-xn-TE9"/>
+                                    <constraint firstItem="Twi-AA-GcC" firstAttribute="top" secondItem="poG-5Q-q6c" secondAttribute="bottom" constant="8" id="WP1-06-adz"/>
+                                    <constraint firstAttribute="trailing" secondItem="1K2-uj-g8Q" secondAttribute="trailing" constant="8" id="XRJ-aX-PyL"/>
+                                    <constraint firstAttribute="trailing" secondItem="jEi-js-x6G" secondAttribute="trailing" id="dsD-MO-RAL"/>
+                                    <constraint firstItem="1K2-uj-g8Q" firstAttribute="top" secondItem="Twi-AA-GcC" secondAttribute="bottom" constant="8" id="gRB-R0-epb"/>
+                                    <constraint firstItem="1K2-uj-g8Q" firstAttribute="leading" secondItem="nah-sr-1aG" secondAttribute="trailing" constant="9" id="jzX-kb-Fre"/>
+                                    <constraint firstItem="nah-sr-1aG" firstAttribute="top" secondItem="Twi-AA-GcC" secondAttribute="bottom" constant="8" id="lG0-NS-4eT"/>
+                                    <constraint firstAttribute="trailing" secondItem="npC-se-jdd" secondAttribute="trailing" constant="8" id="lZI-xD-Cte"/>
+                                    <constraint firstItem="CJq-Ix-QFk" firstAttribute="top" secondItem="jEi-js-x6G" secondAttribute="bottom" constant="-40" id="m2T-Fq-ihZ"/>
+                                    <constraint firstItem="W16-XH-GTQ" firstAttribute="top" secondItem="CJq-Ix-QFk" secondAttribute="bottom" constant="8" id="p5u-cr-Bkv"/>
+                                    <constraint firstItem="Twi-AA-GcC" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" constant="12" id="pUb-yh-ztd"/>
+                                    <constraint firstItem="poG-5Q-q6c" firstAttribute="top" secondItem="fCW-WP-U94" secondAttribute="bottom" constant="4" id="pqq-pB-hXr"/>
+                                    <constraint firstItem="1K2-uj-g8Q" firstAttribute="width" secondItem="nah-sr-1aG" secondAttribute="width" id="tnP-cN-rjy"/>
+                                    <constraint firstItem="poG-5Q-q6c" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" constant="12" id="tpT-le-8yI"/>
+                                    <constraint firstAttribute="trailing" secondItem="9vk-KS-Onl" secondAttribute="trailing" constant="8" id="w0x-RX-oj1"/>
+                                    <constraint firstItem="1K2-uj-g8Q" firstAttribute="height" secondItem="nah-sr-1aG" secondAttribute="height" id="wvG-de-ncZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="W16-XH-GTQ" secondAttribute="trailing" constant="8" id="ybS-hF-exC"/>
+                                    <constraint firstItem="jEi-js-x6G" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" id="zJj-bP-zAG"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jyV-Pf-zRb" firstAttribute="leading" secondItem="jEi-js-x6G" secondAttribute="trailing" constant="-320" id="3gz-ZJ-HbI"/>
+                            <constraint firstItem="jEi-js-x6G" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-20" id="JRw-dS-uZ7"/>
+                            <constraint firstItem="Uei-ks-bYQ" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="RYk-9o-0Nf"/>
+                            <constraint firstAttribute="trailing" secondItem="Uei-ks-bYQ" secondAttribute="trailing" id="gS3-Br-ZsY"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Uei-ks-bYQ" secondAttribute="bottom" id="hgr-JQ-Kiq"/>
+                            <constraint firstItem="Uei-ks-bYQ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="tdr-pk-dmg"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="avatar" destination="CJq-Ix-QFk" id="CSt-nn-p3p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ParallaxiOS_SamsungAvatar" width="128" height="128"/>
+        <image name="ParallaxiOS_SamsungCover" width="1500" height="500"/>
+    </resources>
+</document>
