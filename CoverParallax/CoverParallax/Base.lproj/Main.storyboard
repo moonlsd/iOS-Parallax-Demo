@@ -13,11 +13,11 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uei-ks-bYQ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ParallaxiOS_SamsungCover" translatesAutoresizingMaskIntoConstraints="NO" id="jEi-js-x6G">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
@@ -25,7 +25,7 @@
                                             <constraint firstAttribute="width" constant="320" id="TrR-yA-sxB"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ParallaxiOS_SamsungAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="CJq-Ix-QFk">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ParallaxiOS_SamsungCover" translatesAutoresizingMaskIntoConstraints="NO" id="CJq-Ix-QFk">
                                         <rect key="frame" x="12" y="120" width="80" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="UaB-Aq-b15"/>
@@ -97,24 +97,31 @@
                                         </segments>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npC-se-jdd">
-                                        <rect key="frame" x="8" y="414" width="304" height="400"/>
+                                        <rect key="frame" x="8" y="578" width="304" height="400"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="400" id="TxL-Dx-XM3"/>
                                         </constraints>
-                                        <mutableString key="text">It’s not okay to make a cheap-looking phone anymore.
+                                        <string key="text">It’s not okay to make a cheap-looking phone anymore.
 
 Now that Apple is finally making big phones, and even the cheapest Android phones feel nice, we all expect more from Samsung — and rightly so. A flagship phone has to be great or it’s going to get laughed out of the room. If the Galaxy S6 was another plasticky, boring phone like last year’s Galaxy S5 or if it merely introduced a few hardware tricks, it would have gotten laughed out of the entire neighborhood.
 
 There is a version of the phone with a hardware trick, the Galaxy S6 Edge with a curved display. But that’s a distraction; the real story is that Samsung needed to learn that hardware prowess and software features are tools you use to build something great, not ends in themselves. Most Galaxy phones are uninspired compilations of spec lists. For the S6, Samsung to needed to find inspiration, and it did: in Apple.
 
-The Galaxy S6 is what happens when Samsung doesn’t try to copy Apple’s phones, but instead finally tries to copy Apple’s product philosophy.</mutableString>
+The Galaxy S6 is what happens when Samsung doesn’t try to copy Apple’s phones, but instead finally tries to copy Apple’s product philosophy.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S6_Review" translatesAutoresizingMaskIntoConstraints="NO" id="rXq-ho-yNo">
+                                        <rect key="frame" x="8" y="414" width="304" height="156"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="156" id="US2-qL-Pkt"/>
+                                            <constraint firstAttribute="width" constant="304" id="cAm-Hx-aO5"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="npC-se-jdd" firstAttribute="top" secondItem="9vk-KS-Onl" secondAttribute="bottom" constant="8" id="2YJ-B5-ABD"/>
+                                    <constraint firstItem="npC-se-jdd" firstAttribute="top" secondItem="9vk-KS-Onl" secondAttribute="bottom" constant="200" id="2YJ-B5-ABD"/>
                                     <constraint firstItem="CJq-Ix-QFk" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" constant="12" id="6C2-Hk-9bh"/>
                                     <constraint firstAttribute="bottom" secondItem="npC-se-jdd" secondAttribute="bottom" constant="8" id="6x1-IM-uWl"/>
                                     <constraint firstItem="9vk-KS-Onl" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" constant="8" id="7qo-5W-VhV"/>
@@ -128,7 +135,11 @@ The Galaxy S6 is what happens when Samsung doesn’t try to copy Apple’s phone
                                     <constraint firstItem="nah-sr-1aG" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" constant="12" id="VWT-xn-TE9"/>
                                     <constraint firstItem="Twi-AA-GcC" firstAttribute="top" secondItem="poG-5Q-q6c" secondAttribute="bottom" constant="8" id="WP1-06-adz"/>
                                     <constraint firstAttribute="trailing" secondItem="1K2-uj-g8Q" secondAttribute="trailing" constant="8" id="XRJ-aX-PyL"/>
+                                    <constraint firstItem="npC-se-jdd" firstAttribute="top" secondItem="rXq-ho-yNo" secondAttribute="bottom" constant="8" id="Xg3-TB-kPu"/>
+                                    <constraint firstItem="rXq-ho-yNo" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" constant="8" id="Ytb-a7-363"/>
+                                    <constraint firstItem="rXq-ho-yNo" firstAttribute="top" secondItem="9vk-KS-Onl" secondAttribute="bottom" constant="8" id="bho-yy-bR9"/>
                                     <constraint firstAttribute="trailing" secondItem="jEi-js-x6G" secondAttribute="trailing" id="dsD-MO-RAL"/>
+                                    <constraint firstAttribute="trailing" secondItem="rXq-ho-yNo" secondAttribute="trailing" constant="8" id="fZs-Dv-qYz"/>
                                     <constraint firstItem="1K2-uj-g8Q" firstAttribute="top" secondItem="Twi-AA-GcC" secondAttribute="bottom" constant="8" id="gRB-R0-epb"/>
                                     <constraint firstItem="1K2-uj-g8Q" firstAttribute="leading" secondItem="nah-sr-1aG" secondAttribute="trailing" constant="9" id="jzX-kb-Fre"/>
                                     <constraint firstItem="nah-sr-1aG" firstAttribute="top" secondItem="Twi-AA-GcC" secondAttribute="bottom" constant="8" id="lG0-NS-4eT"/>
@@ -144,6 +155,14 @@ The Galaxy S6 is what happens when Samsung doesn’t try to copy Apple’s phone
                                     <constraint firstAttribute="trailing" secondItem="W16-XH-GTQ" secondAttribute="trailing" constant="8" id="ybS-hF-exC"/>
                                     <constraint firstItem="jEi-js-x6G" firstAttribute="leading" secondItem="Uei-ks-bYQ" secondAttribute="leading" id="zJj-bP-zAG"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2YJ-B5-ABD"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="3La-HA-TgF"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -156,9 +175,12 @@ The Galaxy S6 is what happens when Samsung doesn’t try to copy Apple’s phone
                             <constraint firstItem="Uei-ks-bYQ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="tdr-pk-dmg"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="600"/>
                     <connections>
                         <outlet property="avatar" destination="CJq-Ix-QFk" id="CSt-nn-p3p"/>
+                        <outlet property="contentImageView" destination="rXq-ho-yNo" id="PpB-Xw-yUm"/>
+                        <outlet property="scrollView" destination="Uei-ks-bYQ" id="isU-f0-aNh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -166,7 +188,7 @@ The Galaxy S6 is what happens when Samsung doesn’t try to copy Apple’s phone
         </scene>
     </scenes>
     <resources>
-        <image name="ParallaxiOS_SamsungAvatar" width="128" height="128"/>
         <image name="ParallaxiOS_SamsungCover" width="1500" height="500"/>
+        <image name="S6_Review" width="640" height="480"/>
     </resources>
 </document>

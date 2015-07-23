@@ -8,9 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var avatar: UIImageView!
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var contentImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +20,14 @@ class ViewController: UIViewController {
         avatar.layer.borderWidth = 4.0
         avatar.layer.borderColor = UIColor.whiteColor().CGColor
         avatar.clipsToBounds = true
+        scrollView.delegate = self
+        contentImageView.clipsToBounds = true
+    }
+    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        let yOffset = self.scrollView.contentOffset.y * 0.2
+        let availableOffset = min(yOffset, 60)
+        let contentRectYOffset = availableOffset / contentImageView.frame.size.height
+        contentImageView.layer.contentsRect = CGRectMake(0.0, contentRectYOffset, 1, 1);
     }
 }
-
