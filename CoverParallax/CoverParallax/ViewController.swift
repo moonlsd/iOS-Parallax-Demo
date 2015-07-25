@@ -24,6 +24,11 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         contentImageView.clipsToBounds = true
     }
     
+    override func viewDidAppear(animated: Bool) {
+        let vc = self.storyboard?.instantiateViewControllerWithIdentifier("LoginScreen") as! UIViewController
+        self.presentViewController(vc, animated: true, completion: nil)
+    }
+    
     func scrollViewDidScroll(scrollView: UIScrollView) {
         let yOffset = self.scrollView.contentOffset.y * 0.2
         let availableOffset = min(yOffset, 60)

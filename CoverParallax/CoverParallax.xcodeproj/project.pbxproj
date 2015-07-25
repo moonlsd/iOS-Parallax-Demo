@@ -13,6 +13,8 @@
 		409B7CD61B51017800876627 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409B7CD51B51017800876627 /* Images.xcassets */; };
 		409B7CD91B51017800876627 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 409B7CD71B51017800876627 /* LaunchScreen.xib */; };
 		409B7CE51B51017900876627 /* CoverParallaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B7CE41B51017900876627 /* CoverParallaxTests.swift */; };
+		40DC780F1B61C3C000A6A888 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DC780E1B61C3C000A6A888 /* LoginController.swift */; };
+		40DC78101B61C5D400A6A888 /* BackgroundVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 40DC780D1B61C30500A6A888 /* BackgroundVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		409B7CDE1B51017900876627 /* CoverParallaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoverParallaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		409B7CE31B51017900876627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		409B7CE41B51017900876627 /* CoverParallaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverParallaxTests.swift; sourceTree = "<group>"; };
+		40DC780D1B61C30500A6A888 /* BackgroundVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BackgroundVideo.mp4; sourceTree = "<group>"; };
+		40DC780E1B61C3C000A6A888 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		409B7CC01B51017800876627 = {
 			isa = PBXGroup;
 			children = (
+				40DC780D1B61C30500A6A888 /* BackgroundVideo.mp4 */,
 				409B7CCB1B51017800876627 /* CoverParallax */,
 				409B7CE11B51017900876627 /* CoverParallaxTests */,
 				409B7CCA1B51017800876627 /* Products */,
@@ -83,6 +88,7 @@
 				409B7CD51B51017800876627 /* Images.xcassets */,
 				409B7CD71B51017800876627 /* LaunchScreen.xib */,
 				409B7CCC1B51017800876627 /* Supporting Files */,
+				40DC780E1B61C3C000A6A888 /* LoginController.swift */,
 			);
 			path = CoverParallax;
 			sourceTree = "<group>";
@@ -193,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				409B7CD41B51017800876627 /* Main.storyboard in Resources */,
+				40DC78101B61C5D400A6A888 /* BackgroundVideo.mp4 in Resources */,
 				409B7CD91B51017800876627 /* LaunchScreen.xib in Resources */,
 				409B7CD61B51017800876627 /* Images.xcassets in Resources */,
 			);
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				409B7CD11B51017800876627 /* ViewController.swift in Sources */,
+				40DC780F1B61C3C000A6A888 /* LoginController.swift in Sources */,
 				409B7CCF1B51017800876627 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +417,7 @@
 				409B7CEA1B51017900876627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		409B7CEB1B51017900876627 /* Build configuration list for PBXNativeTarget "CoverParallaxTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				409B7CED1B51017900876627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
