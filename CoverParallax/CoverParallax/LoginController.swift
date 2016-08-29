@@ -26,7 +26,7 @@ class LoginController: UIViewController {
         playerLayer.frame = self.view.frame
         playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
         self.view.layer.insertSublayer(playerLayer, atIndex: 0)
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "playerItemDidReachEnd", name: AVPlayerItemDidPlayToEndTimeNotification, object: player!.currentItem)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(playerItemDidReachEnd), name: AVPlayerItemDidPlayToEndTimeNotification, object: player!.currentItem)
         player!.seekToTime(kCMTimeZero)
         player!.play()
         

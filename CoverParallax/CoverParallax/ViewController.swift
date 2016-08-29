@@ -25,8 +25,9 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     }
     
     override func viewDidAppear(animated: Bool) {
-        let vc = self.storyboard?.instantiateViewControllerWithIdentifier("LoginScreen") as! UIViewController
-        self.presentViewController(vc, animated: true, completion: nil)
+        if let vc = self.storyboard?.instantiateViewControllerWithIdentifier("LoginScreen") {
+            self.presentViewController(vc, animated: true, completion: nil)
+        }
     }
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
